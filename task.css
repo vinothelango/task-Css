@@ -1,0 +1,254 @@
+body{
+    background-repeat: no-repeat;
+    background-color: rgb(221, 239, 246);
+    background-image:url(images/pattern-background-desktop.svg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   height: 80vh;
+
+}
+#music{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+@media (max-width: 768px) {
+  #music {
+    width:  100%;
+  }
+}
+@media (max-width: 480px) {
+  #music {
+    width:  100%;
+  }
+}
+
+.card {
+    background: white;
+position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  font-family: arial;
+  
+  border-radius: 15px;                                                               ;
+  height: 500;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  
+}
+@media (max-width: 768px) {
+  .card {
+    width: 60%;
+     max-width: 500px;
+  }
+}
+@media (max-width: 480px) {
+.card {
+  width: 50%;
+   max-width: 500px;
+  }
+}
+
+h2{
+  font-size: 20px;
+  text-align: center;
+
+}
+
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 15px;
+  }
+}
+@media (max-width: 480px) {
+  h2 {
+    font-size: 10px;
+  }
+}
+
+
+
+
+p{
+    color: gray;
+    font-size: medium;
+    display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
+@media (max-width: 768px) {
+  p {
+    font-size: 60%;
+  }
+}
+@media (max-width: 480px) {
+  p {
+    font-size: 40%;
+  }
+}
+li,h3,p{
+    display: inline;
+
+}
+
+.icon{
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  
+  text-align: center;
+
+  
+}
+@media (max-width: 768px) {
+  .icon {
+    width: 30px;
+  }
+}
+@media (max-width: 480px) {
+  .icon{
+    width: 25px;
+  }
+}
+.pack{
+    display: flex;flex-direction: row;
+    margin:0;
+    /* margin-top: 20px; */
+    font-size: medium;
+    margin-left: 10px;
+    padding: 10px;
+}
+@media (max-width: 768px) {
+  .pack {
+    font-size: 80%;
+  }
+}
+@media (max-width: 480px) {
+  .pack{
+   font-size: 60%;
+  }
+}
+#music{
+margin-top: 1px;
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+
+    }
+#para{
+    color: lightslategrey;
+    width: auto;
+    display: flex;
+  flex-direction: row;
+}
+@media (max-width: 768px) {
+  #para {
+    font-size: 10px;
+    flex-direction: column;
+  }
+}
+@media (max-width: 480px) {
+  #para {
+    font-size: 8px;
+    flex-direction: column;
+  }
+}
+
+.primium{
+    display: flex;
+    align-items: center;
+ width: max-content;
+text-align: center;
+border-radius: 8px;
+height: auto;
+margin-top: 20px;
+background-color:  rgb(240, 247, 250);
+/* flex-wrap: wrap; */
+
+}
+@media (max-width: 768px) {
+  .primium {
+    size: 60%;
+  }
+}
+
+img{
+    margin-top: 20px;
+    
+
+}
+
+.chage:hover{
+    color: black;
+}
+.chage{
+    color: blue;
+    cursor: pointer;
+    padding : 10px;
+    display: flex;
+    flex-direction: row;
+   
+}
+@media (max-width: 768px) {
+  .chage {
+    font-size: 60%;
+  }
+}
+@media (max-width: 480px) {
+  .chage {
+    font-size: 40%;
+  }
+}
+#pay{
+    background-color: blue;
+    width: 250px;
+    border-radius: 10px;
+    padding: 10px;
+   text-align: 40px;
+    color: white;
+    box-shadow: 10px 10px 10px lightblue;
+    cursor: pointer;
+    
+}
+@media (max-width: 768px) {
+  #pay {
+    width: 50%;
+    font-size: 40%;
+  }
+}
+@media (max-width: 480px) {
+  #pay {
+    width: 40%;
+    font-size: 30%;
+  }
+}
+
+    
+    #pay:active {
+            transform: scale(0.98);
+            /* Scaling button to 0.98 to its original size */
+            box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+h5{
+    color:lightslategrey;
+    cursor: pointer;
+    text-align: center;
+}
+@media (max-width: 768px) {
+  h5 {
+
+    font-size: 60%;
+  }
+}
+@media (max-width: 480px) {
+  h5 {
+    font-size: 40%;
+  }
+}
+h5:hover{
+    color: black;
+}
